@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "short_name": "Instahyre-autoApply",
+  "name": "Instahyre-Autoapply",
+  "description": "Autoapply in istahyre",
+  "action": {
+    "default_title": "Instahyre-autoApply",
+    "default_icon": "src/common/assets/img/logo.png",
+    "default_popup": "src/index.html"
+  },
+  "icons": {
+    "16": "src/common/assets/img/logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.instahyre.com/*",
+        "https://www.foundit.in/*"
+        
+      ],
+      "js": ["dist/bundle.js"],
+      "css": ["src/index.css"]
+    }
+  ],
+  "externally_connectable": {
+    "ids": ["*"]
+  },
+  "permissions": ["storage", "tabs"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

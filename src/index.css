@@ -1,0 +1,49 @@
+/* *{
+    margin:0
+}
+
+body{
+    width: 220px;
+    height: 280px;
+}
+
+.back-black{
+    background: black;
+}
+.col-purple{
+    color: purple;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jus-con-cen{
+    justify-content: center;
+}
+
+.align-cen{
+    align-items: center;
+}
+
+.weight-600{
+    font-weight: 600;
+}
+.size-18{
+    font-size: 18px;
+}
+
+.w-100p{
+    width: 100%;
+}
+
+
+.h-100p{
+    height: 100%;
+}
+.h-60p{
+    height: 60%;
+}
+.h-40p{
+    height: 40%;
+} */
