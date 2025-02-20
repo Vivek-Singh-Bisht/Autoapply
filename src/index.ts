@@ -1,13 +1,11 @@
-// import foundit from "./sites/foundit/foundit"
-// import instahyre from "./sites/instahyre/instahyre"
-import * as foundit from './sites/foundit/foundit';
+import foundit from "./sites/foundit/foundit"
+import instahyre from "./sites/instahyre/instahyre"
 
 const INSTAHYRE='INSTAHYRE'
 const FOUNDIT='FOUNDIT'
 const currentUrl = window.location.href
 let currentSite = ''
 
-console.log(foundit,">>>>DSfdsbfjsvsbv", currentUrl)
 if(currentUrl.includes('instahyre'))
     currentSite=INSTAHYRE
 if(currentUrl.includes('foundit'))
@@ -15,11 +13,9 @@ if(currentUrl.includes('foundit'))
 
 switch(currentSite){
     case INSTAHYRE :  
-        // instahyre();
+        instahyre();
         break;
     case FOUNDIT :  
-    // foundit.foundit();
+        foundit();
         break;
 }
-
-console.log(foundit,">>>>DSfdsbfjsvsbv", currentUrl)
