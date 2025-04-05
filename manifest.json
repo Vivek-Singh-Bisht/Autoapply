@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
   "version": "1.0.0",
-  "short_name": "Instahyre-autoApply",
-  "name": "Instahyre-Autoapply",
-  "description": "Autoapply in istahyre",
+  "short_name": "AutoApply-Ext",
+  "name": "Autoapply-Ext",
+  "description": "Autoapply on different platfroms",
   "action": {
-    "default_title": "Instahyre-autoApply",
+    "default_title": "AutoApply",
     "default_icon": "src/common/assets/img/logo.png",
     "default_popup": "src/index.html"
   },
@@ -16,7 +16,8 @@
     {
       "matches": [
         "https://www.instahyre.com/*",
-        "https://www.foundit.in/*"
+        "https://www.foundit.in/*",
+        "https://www.linkedin.com/*"
         
       ],
       "js": ["dist/bundle.js"],

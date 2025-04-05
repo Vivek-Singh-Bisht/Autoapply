@@ -1,5 +1,5 @@
 const foundit = () => {
-    console.log(">>>>>>>>>>>foundit running")
+    console.log(">>>>>>>>>>>Foundit Running..!!")
 
 }
 
